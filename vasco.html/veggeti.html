@@ -6,13 +6,19 @@
     <meta name="keywords" content="HTML, CSS, Web">
     <meta name="author" content="Seu Nome">
     <title>Minha Página HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    
 </head>
 <body>
 
     <h1>Vasco avança no sufoco!</h1>
 
-    <p>Com empate nos acrescimos, cruzmaltino levaa melhor nos penaltis.</p>
+    <p>Com empate nos acrescimos, cruzmaltino leva a melhor nos penaltis.</p>
 
+    <img src="fotopiton.jpg" alt="Descrição da Imagem" width="400" height="300">
     <ul>
         <li>Com gols de:</li>
         <li>Vegetti</li>
@@ -31,9 +37,31 @@
     <p>Comissao Tecnica nao  <span>gostou nada do comportamento da equipe</span>.</p>
 
     <div>
+        <div class="fundo-colorido">
+            <p>Payet e Vegetti decidem mais uma vez.</p>
+        </div>
         <p>Payet e Vegetti decidem mais uma vez.</p>
     </div>
+    <video controls width="600" height="400">
+        <source src="golsvasco.mp4" type="video/mp4">
+        
+    </video>
+    <audio controls>
+        <source src="hinovasco.mp3" type="audio/mpeg">
+        
+    </audio>
+    <form action="pagina-de-destino.php" method="GET">
+        <label for="time_vencedor">Time Vencedor:</label>
+        <input type="text" id="time_vencedor" name="time_vencedor" required><br><br>
+
+        <label for="placar">Placar:</label>
+        <input type="text" id="placar" name="placar" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <a href="https://sociogigante.com/",>VIRE SOCIO GIGANTE!</a>
+
 
 </body>
 </html>
-
